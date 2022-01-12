@@ -5,13 +5,134 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Countries</title>
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="css/col.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+  <header id="header" class="site-header">
+    <div class="container">
+      <div class="row middle between">
+        <h2 class="logo-heading">Where in the world?</h2>
+        <button class="light-dark" id="modeBtn">Dark Mode</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="site-main">
+    <div class="container">
+      <div class="search-inner row middle between">
+        <div class="input-search row middle">
+          <i class='bx bx-search-alt-2'></i>
+          <input type="text" name="search" placeholder="Search for a country…">
+        </div>
+        <div class="dropdown">
+          <p>Filter by Region</p>
+          <div class="dropdown-content">
+            <p class="dropdown-items">Africa</p>
+            <p class="dropdown-items">America</p>
+            <p class="dropdown-items">Asia</p>
+            <p class="dropdown-items">Europe</p>
+            <p class="dropdown-items">Oceania</p>
+          </div>
+        </div>
+      </div>
+      <ul class="countries-list row between">
+        <li class="countries-item">
+          <img src="images/germany.png" alt="germany">
+          <div class="list-desc">
+            <h3 class="country-title">Germany</h3>
+            <ul class="components-list">
+              <li class="components">Population: <span>81,770,900</span> </li>
+              <li class="components">Region: <span>Europe</span> </li>
+              <li class="components">Capital: <span>Berlin</span> </li>
+            </ul>
+          </div>
+        </li>
+        <li class="countries-item">
+          <img src="images/usa.png" alt="usa">
+          <div class="list-desc">
+            <h3 class="country-title">United States of America</h3>
+            <ul class="components-list">
+              <li class="components">Population: <span>323,947,000</span> </li>
+              <li class="components">Region: <span>Americas</span> </li>
+              <li class="components">Capital: <span>Washington, D.C.</span> </li>
+            </ul>
+          </div>
+        </li>
+        <li class="countries-item">
+          <img src="images/brazil.png" alt="brazil">
+          <div class="list-desc">
+            <h3 class="country-title">Brazil</h3>
+            <ul class="components-list">
+              <li class="components">Population: <span>206,135,893</span> </li>
+              <li class="components">Region: <span>Americas</span> </li>
+              <li class="components">Capital: <span>Brasília</span> </li>
+            </ul>
+          </div>
+        </li>
+        <li class="countries-item">
+          <img src="images/iceland.png" alt="iceland">
+          <div class="list-desc">
+            <h3 class="country-title">Iceland</h3>
+            <ul class="components-list">
+              <li class="components">Population: <span>334,300</span> </li>
+              <li class="components">Region: <span>Europe</span> </li>
+              <li class="components">Capital: <span>Reykjavík</span> </li>
+            </ul>
+          </div>
+        </li>
+        <li class="countries-item">
+          <img src="images/afghanistan.png" alt="afghanistan">
+          <div class="list-desc">
+            <h3 class="country-title">Afghanistan</h3>
+            <ul class="components-list">
+              <li class="components">Population: <span>27,657,145</span> </li>
+              <li class="components">Region: <span>Asia</span> </li>
+              <li class="components">Capital: <span>Kabul</span> </li>
+            </ul>
+          </div>
+        </li>
+        <li class="countries-item">
+          <img src="images/islands.png" alt="islands">
+          <div class="list-desc">
+            <h3 class="country-title">Åland Islands</h3>
+            <ul class="components-list">
+              <li class="components">Population: <span>28,875</span> </li>
+              <li class="components">Region: <span>Europe</span> </li>
+              <li class="components">Capital: <span>Mariehamn</span> </li>
+            </ul>
+          </div>
+        </li>
+        <li class="countries-item">
+          <img src="images/albania.png" alt="albania">
+          <div class="list-desc">
+            <h3 class="country-title">Albania</h3>
+            <ul class="components-list">
+              <li class="components">Population: <span>2,886,026</span> </li>
+              <li class="components">Region: <span>Europe</span> </li>
+              <li class="components">Capital: <span>Tirana</span> </li>
+            </ul>
+          </div>
+        </li>
+        <li class="countries-item">
+          <img src="images/algeria.png" alt="algeria">
+          <div class="list-desc">
+            <h3 class="country-title">Algeria</h3>
+            <ul class="components-list">
+              <li class="components">Population: <span>40,400,000</span> </li>
+              <li class="components">Region: <span>Africa</span> </li>
+              <li class="components">Capital: <span>Algiers</span> </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+  </div>
 
   <script src="js/main.js"></script>
 </body>
